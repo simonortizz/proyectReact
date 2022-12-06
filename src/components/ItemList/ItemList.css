@@ -1,0 +1,16 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 2rem;
+    column-gap: 4rem;
+    justify-items: center;
+    align-items: start;
+    margin-inline: auto;
+    /* margin-bottom: 6rem; */
+}
+
+@media screen and (min-width: 1300px) {
+    .products {
+        column-gap: 6rem;
+    }
+}
